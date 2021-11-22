@@ -2,7 +2,10 @@ import React from "react";
 import Posts from './src/screens/Posts'
 
 const App = () => {
-    return <Posts />;
+    return (
+    <NavigationContainer>
+        <Posts />
+    </NavigationContainer>);
     
 };
 
