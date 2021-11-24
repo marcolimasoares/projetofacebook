@@ -1,5 +1,6 @@
 import React from "react";
-import Posts from './src/screens/Posts'
+import { NavigationContainer } from '@react-navigation/native';
+import Posts from './src/screens/Posts';
 
 const App = () => {
     return (

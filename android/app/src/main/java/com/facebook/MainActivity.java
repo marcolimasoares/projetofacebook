@@ -13,8 +13,9 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "Facebook";
   }
-}
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
+  }
 }
